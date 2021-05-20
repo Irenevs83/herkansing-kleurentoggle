@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(233, 173, 225);
+}
+.fas  {
+    margin-left:20px;  
+    cursor:pointer; 
+}
+#colormenu {
+    list-style: none;
+    position: absolute;
+    text-align: center;
+    font-size:20px;
+    width:200px;
+    height:100px;
+    left: -25px;
+    margin: 5px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+    transition-property: transform;
+    transform: translateX(-200px);
+}
+.colormenuToggle {
+    list-style: none;
+    position: absolute;
+    text-align: center;
+    font-size:20px;
+    width:200px;
+    height:100px;
+    left: 25px;
+    margin: 5px;
+    padding:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    transition: 1s;
+    transition-property: transform;
+    transform: translateX(200px);
+}
+
+.ColorHome {
+    background-color:rgb(233, 173, 225);
+    cursor:pointer;
+}
+.ColorRed{
+    background-color: red;
+    cursor:pointer;
+}
+.ColorBlue {
+    background-color: blue;
+    cursor:pointer;
+}
+.ColorGreen {
+    background-color: green;
+    cursor:pointer;
+}
+.ColorYellow {
+    background-color: yellow;
+    cursor:pointer;
+}
+.ColorPurple {
+    background-color: purple;
+    cursor:pointer;
+}
+
